@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+p{
+    color: #767676;
+}
+.top-banner{
+   background: url(img/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 500px;
+    padding: 100px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width img {
+    width: 100%;
+}
+
+.half-width h1{
+    font-size: 30px;
+   
+}
+.half-width p{
+   margin-bottom: 30px;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #EC4C77, #EC4C77);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: .5s;
+    
+}
+.button-link:hover{
+    
+    background-image: linear-gradient(45deg, #aa022e, #fd0144);
+
+    
+}
+.color-heading{
+    color: #EC4F91;
+    font-size: 40px !important;
+    font-weight: 700;
+}
+.biography{
+    background: url(img/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 100px 100px 150px 0px;
+  
+}
+.latest-work{
+    background: url(img/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 5% 10%;
+   
+}
+.biography img{
+    width: 120%;
+}
+.latest-work h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+.one-third-width{
+    width: 30%;
+    float: left ;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.one-third-width img{
+    width: 100%;
+}
+.last-part{
+    text-align: center;
+    background: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position:  right;
+    background-size: cover;
+    padding: 100px;
+}
+.last-part h1{
+    font-size: 30px;
+}
+.last-part h3{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+}
+.last-part h5{
+    color: #979797;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.last-part p{
+    color: #535353;
+    margin: 0px;
+   
+}
+.review{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.my-gmail{
+    width: 600px;
+    background-image: linear-gradient(45deg, #EC4F92, #ED4B6F);
+    margin: 0 auto;
+    padding: 3px;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+.my-gmail p{
+   margin: 0px;
+   padding-top: 20px;
+   color: #ffffff;
+
+}
+.contact{
+    padding-left: 100px;
+    padding-top: 50px;
+    
+}
+.contact h1{
+    font-size: 30px;
+}
+.contact-form{
+    margin-bottom: 100px;
+}
+.contact-form div{
+    margin-bottom: 15px;
+}
+.contact img{
+    margin-top: 50px;
+}
+.contact-form span{
+    width: 140px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.contact-form input{
+    width: 100%;
+    height: 40px;
+    display: inline;
+    border-radius: 5px;
+    border: 2px solid #D4FCFF;
+    
+}
+.message-box{
+    height: 100px !important;
+    margin-bottom: 20px;
+}
+footer {
+    clear: both;
+    text-align: center;
+    margin-bottom: 40px;
+}
